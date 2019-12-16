@@ -1,4 +1,2 @@
-# hello-world
-baby repository
+# Initial page
 
-This is the first time I have used github.
