@@ -11,5 +11,5 @@ PASA-AutoML运行时会在本地产生模型文件夹，里面包含大量模型
 | hypertuner\_mode2 | 在mode2基础上使用hypertuner超参调优 |
 | metalearning\_mode2 | 在mode2基础上使用元学习 |
 
-![](../.gitbook/assets/image%20%2831%29.png)
+![](../.gitbook/assets/image%20%2840%29.png)
 

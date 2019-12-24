@@ -12,7 +12,7 @@ model = load_model('./HypTuner_log/classifier_test_mode_0',0,2)
 model.get_model()
 ```
 
-![&#x5BFC;&#x5165;&#x6A21;&#x578B;](../.gitbook/assets/image%20%2821%29.png)
+![&#x5BFC;&#x5165;&#x6A21;&#x578B;](../.gitbook/assets/image%20%2827%29.png)
 
 ### 2 模型预测
 
@@ -25,7 +25,7 @@ x_train, x_test, y_train, y_test = train_test_split(X, y, test_size=0.33, random
 model.predict(x_test)
 ```
 
-![&#x6A21;&#x578B;&#x9884;&#x6D4B;](../.gitbook/assets/image%20%2814%29.png)
+![&#x6A21;&#x578B;&#x9884;&#x6D4B;](../.gitbook/assets/image%20%2818%29.png)
 
 ### 3 交叉验证
 
@@ -37,5 +37,5 @@ acc = cross_validate_score(model, X, y, evaluation_rule='accuracy_score', cv=10)
 acc
 ```
 
-![&#x4EA4;&#x53C9;&#x9A8C;&#x8BC1;](../.gitbook/assets/image%20%2810%29.png)
+![&#x4EA4;&#x53C9;&#x9A8C;&#x8BC1;](../.gitbook/assets/image%20%2814%29.png)
 
